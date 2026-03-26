@@ -42,5 +42,10 @@ final class AppCoordinator: ObservableObject {
     func showMain() {
         flow = .main
     }
+    
+    func finishOnboarding() {
+        container.storage.onboardingShown()
+        flow = .subscription
+    }
 }
 

@@ -12,4 +12,8 @@ final class StorageService {
             UserDefaults.standard.set(newValue, forKey: onboardingKey)
         }
     }
+    
+    func onboardingShown() {
+        hasOnboarding = true
+    }
 }
