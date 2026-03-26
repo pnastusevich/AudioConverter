@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		858E3D322F6DB5D2004EA2CD /* AudioConverter */ = {
+		85527FCA2F75388F001EECB1 /* AudioConverter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AudioConverter;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		858E3D272F6DB5D2004EA2CD = {
 			isa = PBXGroup;
 			children = (
-				858E3D322F6DB5D2004EA2CD /* AudioConverter */,
+				85527FCA2F75388F001EECB1 /* AudioConverter */,
 				858E3D312F6DB5D2004EA2CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				858E3D322F6DB5D2004EA2CD /* AudioConverter */,
+				85527FCA2F75388F001EECB1 /* AudioConverter */,
 			);
 			name = AudioConverter;
 			packageProductDependencies = (

@@ -27,6 +27,9 @@ struct MainScreen: View {
     @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
-        Text("asd")
+        ZStack {
+            Text("asd")
+        }
+        .background(Color.red)
     }
 }
