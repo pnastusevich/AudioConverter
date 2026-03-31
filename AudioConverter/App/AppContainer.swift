@@ -18,4 +18,10 @@ final class AppContainer: ObservableObject {
     func makeOnboardingViewModel() -> OnboardingViewModel { OnboardingViewModel(coordinator: appCoordinator) }
     func makeSubscriptionViewModel() -> SubscriptionViewModel { SubscriptionViewModel(service: subscriptionService, coordinator: appCoordinator) }
     func makeMainViewModel() -> MainViewModel { MainViewModel() }
+    func makeDetailFileViewModel(_ file: ModelFiles) -> DetailFileViewModel {
+        DetailFileViewModel(file: file)
+    }
+    func makeCovertFileViewModel(_ file: ModelFiles) -> ConvertFileViewModel {
+        ConvertFileViewModel(file: file)
+    }
 }

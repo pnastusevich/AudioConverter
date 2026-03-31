@@ -17,7 +17,7 @@ struct FirstSlide: View {
                 .font(.system(size: 34, weight: .bold))
             
             VStack(spacing: 20) {
-                FileBlock(title: "SmallJohn.wav", imageName: "arrow.trianglehead.2.clockwise")
+                FileItemBlock(title: "SmallJohn.wav")
                 
                 Text("Convert to:")
                     .font(.system(size: 17, weight: .semibold))
