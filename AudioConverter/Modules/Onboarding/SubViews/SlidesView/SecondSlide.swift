@@ -8,9 +8,9 @@ struct SecondSlide: View {
             VStack(spacing: 10) {
                 
                 Group {
-                    FileBlock(title: "SmallJohn.mp4", date: "14 Oct 2025, 8:30 PM", imageName: "ellipsis")
-                    FileBlock(title: "BigMaria.avi", date: "15 Oct 2025, 9:00 AM", imageName: "ellipsis")
-                    FileBlock(title: "MediumAlex.mov", date: "16 Oct 2025, 10:15 AM", imageName: "ellipsis")
+                    FileItemBlock(title: "SmallJohn.mp4", date: "14 Oct 2025, 8:30 PM")
+                    FileItemBlock(title: "BigMaria.avi", date: "15 Oct 2025, 9:00 AM")
+                    FileItemBlock(title: "MediumAlex.mov", date: "16 Oct 2025, 10:15 AM")
                 }
                 .padding(.horizontal, 20)
                 
